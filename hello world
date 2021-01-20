@@ -2,6 +2,11 @@
 
 using namespace std;
 
+void supermain()
+{
+	cout << "HELLO WORLD!!!";
+}
+
 void notmain()
 {
   cout << "Goodbye World!";
@@ -12,4 +17,5 @@ main()
   cout << "Hello World!";
   
   notmain();
+  supermain();
 }
