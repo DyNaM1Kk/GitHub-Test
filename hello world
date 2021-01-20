@@ -2,7 +2,14 @@
 
 using namespace std;
 
+void notmain()
+{
+  cout << "Goodbye World!";
+}
+
 main()
 {
   cout << "Hello World!";
+  
+  notmain();
 }
