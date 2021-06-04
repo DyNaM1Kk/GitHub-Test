@@ -1,0 +1,103 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	DEM07
+	{
+		defaultceiltexture = "F_SKY1";
+		overridefloorheight = false;
+		customfloorheight = 0;
+		uselongtexturenames = false;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		resources
+		{
+		}
+		overrideceiltexture = false;
+		viewpositionx = -526.9408f;
+		defaulttoptexture = "SDROCK1";
+		overrideceilheight = false;
+		useresourcesinreadonlymode = false;
+		overridebrightness = false;
+		overridefloortexture = false;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 8;
+			background = "";
+			backoffsety = 0;
+		}
+		overridetoptexture = false;
+		overridebottomtexture = false;
+		defaultbottomtexture = "SDROCK1";
+		defaultfloortexture = "MROCK1";
+		viewpositiony = -36.941f;
+		defaultwalltexture = "SDROCK1";
+		customceilheight = 128;
+		overridemiddletexture = false;
+		custombrightness = 196;
+		viewscale = 0.1275434f;
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsetx_top = 1;
+				offsetx_bottom = 1;
+				offsety_top = 1;
+				offsety_mid = 1;
+				scalex_bottom = 1;
+				scaley_bottom = 1;
+				offsety_bottom = 1;
+			}
+			
+			sector
+			{
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				color_ceiling = 0;
+				color_walltop = 0;
+				color_sprites = 0;
+				color_wallbottom = 0;
+				color_floor = 0;
+				floorglowheight = 1;
+				floorglowcolor = 0;
+				fadecolor = 0;
+				fogdensity = 0;
+				ceilingglowcolor = 0;
+				ceilingglowheight = 1;
+				lightcolor = 0;
+				damagetype = 2;
+				damageamount = 0;
+				damageinterval = 0;
+				lightfloor = 0;
+				lightceiling = 0;
+			}
+			
+			thing
+			{
+				user_sound = 2;
+			}
+		}
+	}
+}
